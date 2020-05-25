@@ -21,7 +21,7 @@ end
 def return_string_array(array)
   new_array = []
   for element in array
-    new_array.puhs(element.to_s)
+    new_array.push(element.to_s)
   end
   return new_array
 end
